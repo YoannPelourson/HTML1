@@ -3,7 +3,7 @@
   font-family: 'Muli', sans-serif;
 }
 header, footer{
-  height: 60px;
+  height: 80px;
   background-color: #d34832;
 
 }
@@ -22,14 +22,22 @@ main{
   margin-top: 80px;
   margin-bottom: 20px;
 }
+
+}
 #logo-title{
   font-family: 'Muli', sans-serif;
   font-family: 'Share Tech', sans-serif;
 }
 /*Selectors for classes*/
+.link-no-style{
+  text-decoration: none;
+  color: inherit;
+}
 .image-container>img{
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .position-fixed{
   position: fixed;
@@ -98,8 +106,4 @@ ul.flex-center{
 }
 .rounded-image{
   border-radius: 8px;
-}
-.list-no-style{
-  text-decoration: none;
-  color: inherit;
 }
