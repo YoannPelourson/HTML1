@@ -22,7 +22,9 @@ function checkVictory(divs){
 
   }
   if(victoryStatus == true) {
+    setTimeout(function(){
     alert('GG WP!');
+  }, 500);
   }
   //si toutes divs sont rouge GG
   //si aucune divs n'est verte GG
