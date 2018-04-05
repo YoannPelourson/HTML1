@@ -123,9 +123,43 @@ ul.flex-center{
   cursor: pointer;
 
 }
+#game-container>div>img{
+  width: 100%;
+  background-color: lightblue;
+
+
+}
+#reset-button{
+  display: flex;
+}
+#reset-button>div>img{
+  width: 60px;
+  height: 60px;
+  border: solid 1px;
+  border-radius: 3px;
+  background-color: lightblue;
+}
+#reset-button>div>img:hover{
+  cursor: pointer;
+}
+#compteur {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  height: 60px;
+  border: solid 1px;
+  border-radius: 3px;
+  background-color: lightblue;
+  text-align: center;
+  justify-content: center;
+  font-size: 2em;
+}
 .green-color{
   background-color: green !important;
 }
 .red-color{
   background-color: red !important;
+}
+.button{
+  border-radius: 3px;
 }
